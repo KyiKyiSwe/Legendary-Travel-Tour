@@ -1,0 +1,244 @@
+
+
+@font-face{
+	font-family: Raleway;
+	src:url(../../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face{
+	font-family: Raleway-SemiBold;
+	src:url(../../fonts/static/Raleway-SemiBold.ttf);
+}
+
+
+@font-face{
+	font-family: Pacifico-Regular;
+	src:url(../../fonts/Pacifico-Regular.ttf);
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family: Raleway-SemiBold;
+}
+
+a.logo_style{
+	font-family: Pacifico-Regular;
+	font-size: 28px;
+	color: #444;
+	margin-left: 10px;
+}
+
+.nav-item a{
+	font-family: Raleway-SemiBold;
+	color: #666!important;
+}
+
+.logo_image{
+	width: 140px;
+}
+
+.carousel_title{
+	color: #fff;
+	background: #0000005c;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+	top: 180px;
+	left: 10%;
+}
+
+.carousel_title a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.carousel_title a:hover{
+	/*color: #fff;*/
+	text-decoration: none;
+}
+
+
+div#tour_program{
+	padding: 20px 0 60px;
+}
+
+div.tour_box{
+	padding: 15px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.24);
+	margin: 15px 0;
+}
+
+.tour_text{
+	margin: 20px 20px 36px 20px;
+
+}
+
+.tour_text h4{
+	font-size: 18px;
+}
+
+div#counter{
+	background: url("../../images/homepage/home_bg.jpg")bottom center fixed;
+	margin: 0 0 60px 0;
+}
+
+div.counter_column{
+	text-align: center;
+	color: #fff;
+	padding: 60px 0 40px;
+}
+
+.counter_img{
+	padding: 8px;
+    background: #f8f9fa;
+    border-radius: 50px;
+    width: 85px;
+}
+
+.des_column p{
+    position: absolute;
+    top: 78%;
+    left: 15%;
+    font-size: 22px;
+    font-family: raleway-semibold;
+    color: #fff;
+    border-left: 3px solid white;
+    background: linear-gradient(to left,transparent,rgb(0 0 0 / 46%),rgba(0,0,0,0.2));
+    padding: 5px 10px;
+}
+
+footer{
+	background: #f8f9fa;
+	margin-top: 60px;
+}
+
+.footer_column{
+	padding: 60px 0;
+}
+
+.footer_column h4{
+	padding-bottom: 10px;
+}
+
+.footer_column img{
+	width: 230px;
+	object-fit: cover;
+	height: 250px;
+}
+
+.footer_column i{
+	float: left;
+    margin-right: 10px;
+    line-height: 25px;
+    color: #299bea;
+}
+
+/*Start Tour Plugin*/
+
+.tourimg_box{
+    background: #8bcbf7;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.tourimg_box:hover{
+    box-shadow: 0 0 20px -5px rgb(139 203 247);
+    
+}
+.tourimg_box:before{
+    content: "";
+    background:rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%; 
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition:all 0.5s;
+}
+.tourimg_box:hover:before{ transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0); }
+.tourimg_box img{
+    width: 100%;
+    height: auto;
+    opacity: 0.95;
+    transition: all 0.5s;
+}
+.tourimg_box:hover img{
+    opacity: 0.6;
+    transform: rotate(10deg) scale(1.5);
+}
+.tourimg_box .box-content{
+    color: #fff;
+    background: linear-gradient(to right,transparent,rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    text-align: right;
+    border-right: 3px solid #fff;
+    padding: 5px 10px;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: right center;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    transition: all 0.4s cubic-bezier(0.6, -0.1, 0.735, 0.045);
+}
+.tourimg_box:hover .box-content{
+    opacity: 1;
+    transform: scaleX(1);
+}
+.tourimg_box .title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+    margin: 0;
+}
+.tourimg_box .post{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.tourimg_box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: all 0.4s cubic-bezier(0.6, -0.1, 0.735, 0.045);
+}
+.tourimg_box:hover .icon{
+    opacity: 1;
+    transform: scale(1);
+}
+.tourimg_box .icon li{ margin: 0 0 10px; }
+.tourimg_box .icon li a{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+    display: block;
+    transition: all 0.3s;
+}
+.tourimg_box .icon li a:hover{
+    background: #f77e38;
+    border-radius: 0;
+}
+@media only screen and (max-width:990px){
+    .tourimg_box { margin: 0 0 30px; }
+}
+
+/*End Tour Plugin*/
