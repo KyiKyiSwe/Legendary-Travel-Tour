@@ -78,6 +78,32 @@ h1,h2,h3,h4,h5{
 	font-family: Raleway-SemiBold;
 }
 
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.dropdown-menu{
+	border: none!important;
+	border-top: 3px solid #37acfd!important;
+	padding: 0!important;
+}
+
+.dropdown-menu a{
+	font-family: Raleway-SemiBold!important;
+	padding: 5px 20px;
+	font-size: 14px!important;
+}
+
+.dropdown-menu a:hover{
+	background: #37acfd!important;
+	padding-left: 14px;
+	transition: 0.5s;
+	color: #eee!important;
+}
+
 a.logo_style{
 	font-family: Pacifico-Regular;
 	font-size: 28px;
@@ -101,7 +127,7 @@ a.logo_style{
     border-radius: 5px;
     position: absolute;
 	top: 180px;
-	left: 10%;
+	left: 12%;
 }
 
 .carousel_title a{
@@ -119,9 +145,17 @@ div#tour_program{
 	padding: 20px 0 60px;
 }
 
+div#tour_program .line,
+div#destination .line{
+	max-width: 6.0rem;
+	border-width: .2rem;
+	border-color: #37acfd;
+	margin-bottom: 30px;
+}
+
 div.tour_box{
 	padding: 15px;
-	border: 1px solid #f2f2f2;
+	border: 1px solid #f3f3f3;
 	border-radius: 5px;
 	box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.24);
 	margin: 15px 0;
@@ -190,6 +224,20 @@ footer{
     margin-right: 10px;
     line-height: 25px;
     color: #299bea;
+}
+
+#footer_copyright{
+	padding: 20px 0;
+    background: #37acfd;
+}
+
+/*.carousel-control-prev-icon{
+	background-image: url("images/homepage/left-arrow.png")!important;
+}*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	width: 32px!important;
+	height: 32px!important;
 }
 
 /*Start Tour Plugin*/
