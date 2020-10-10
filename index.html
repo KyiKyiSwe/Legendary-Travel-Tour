@@ -32,7 +32,7 @@
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
 			          Tour Programs
 			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        <div class="dropdown-menu">
 			          <a class="dropdown-item" href="#">Myanmar Culture Tour</a>
 			          <a class="dropdown-item" href="#">Luxury Tour</a>
 			          <a class="dropdown-item" href="#">Yangon Day Tour</a>
@@ -58,12 +58,21 @@
 		</div>
 	</nav>
 
-	<!-- end nav start -->
+	<!-- end Nav start -->
 
 
 	<!-- carousel start -->
 
 	<div class="carousel slide" data-ride="carousel" id="Carousel">
+		<ol class="carousel-indicators">
+		    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+		    <li data-target="#carouselIndicators" data-slide-to="3"></li>
+		    <li data-target="#carouselIndicators" data-slide-to="4"></li>
+		    <li data-target="#carouselIndicators" data-slide-to="5"></li>
+		</ol>
+
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="images/slideshow/slide-01.jpg" class="img-fluid">
@@ -113,21 +122,27 @@
 			</div>
 
 		</div>
-		<a href="#Carousel" class="carousel-control-prev" data-slide="prev">
-			<span class="carousel-control-prev-icon"></span>
-		</a>
-		<a href="#Carousel" class="carousel-control-next" data-slide="next">
-			<!-- <span class="carousel-control-next-icon"></span> -->
-			<i class="far fa-arrow-circle-left carousel-control-next-icon"></i>
-		</a>
+		 <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Next</span>
+  </a>
 		
 	</div>
+
+
+
+	<!-- Carousel End -->
 
 
 	<!-- start Tour Programs -->
 
 <div id="tour_program">
-	<h2 class="text-center my-3 py-3">Tour Programs</h2>
+	<h2 class="text-center my-3 py-1">Tour Programs</h2>
+	<hr class="text-center line">
 	<div class="container">
 	    <div class="row">
 
@@ -255,7 +270,8 @@
 	<!-- Destination -->
 
 	<div id="destination">
-		<h2 class="text-center my-3 py-3">Top Destination</h2>
+		<h2 class="text-center my-3 py-1">Top Destination</h2>
+		<hr class="text-center line">
 		<div class="row mx-3">
 			<div class="col-md-3">
 				<div class="des_column">
@@ -309,23 +325,30 @@
 		</div>
 	</div>
 
-
 		<!-- Footer -->
+
 		<footer>	
 
 			<div class="container">	
-				<div class="row">	
+				<div class="row">
 
-					<div class="col-lg-4 col-md-4 col-sm-6">	
+					<div class="col-lg-3 col-md-3 col-sm-6">	
+						<div class="footer_column">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=240&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="240" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>	
+
+					<div class="col-lg-3 col-md-3 col-sm-6">	
 						<div class="footer_column">	
-							<h4>Legendary Travels & Tours</h4>
-							<p>	
-									Legendary Travels & Tours was founded in 2009. Our company provides all tourism related services and is a leading inbound and outbound tour operator in Myanmar.
+							<h4>About us</h4>
+							<p class="tex-justify">	
+									Legendary Travel & Tour is a registered company in Myanmar, provide first-class corporate travel management services to international and national organizations in Myanmar.
 							</p>
+							<a href="about.html"><button class="btn btn-outline-primary">Read more</button></a>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-4 col-sm-6">	
+					<div class="col-lg-3 col-md-3col-sm-6">	
 						<div class="footer_column">	
 							<h4>Contact Information</h4>
 							<p><i class="fas fa-home fa-sm"></i>	No. 50th Street, Sanchaung Township, Yangon, Myanmar.</p>
@@ -335,31 +358,34 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-4 col-sm-6">	
+					<div class="col-lg-3 col-md-3 col-sm-6">	
 						<div class="footer_column">
 							<p><a href="images/do_and_dont_english_moht.pdf" target="_blank"><img src="images/homepage/do_and_dont.jpg"></a></p>
-							
+							<div>
+								<a href="images/do_and_dont_english_moht.pdf" target="_blank"><button class="btn btn-outline-primary">Read PDF</button></a>
+							</div>
 						</div>
 						
 
 					</div>
 				</div>	
 			</div>	
-				<div class="row">
-					<div class="container">
-						<hr>
-						<div class="copyright">
-							<div class="col-md-12">
-								<p>Copyright © 2020 Legendary Travels & Tours. Developed by Legend Coder Team.</p>
-							</div>
-						</div>
-					</div>
-				</div>
 
 		</footer>
 
+		<!-- Footer Copyright -->
 
-	<script type="text/javascript" src="bootstrap/jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+		<div id="footer_copyright">
+			<div class="container">
+				<div class="row">
+					<div class="copyright">
+						<div class="col-md-12">
+							<span>Copyright © 2020 Legendary Travels & Tours. Developed by Legend Coder Team.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 </body>
 </html>
