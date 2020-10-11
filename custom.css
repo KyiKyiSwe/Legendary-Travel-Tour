@@ -228,7 +228,8 @@ footer{
 
 #footer_copyright{
 	padding: 20px 0;
-    background: #37acfd;
+    background: #464646;
+    color: white;
 }
 
 /*.carousel-control-prev-icon{
