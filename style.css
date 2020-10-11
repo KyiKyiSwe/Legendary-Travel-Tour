@@ -33,11 +33,12 @@ body{
   //background: #ddd;
 }
 .pe img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   box-shadow: 0 30px 40px 0 rgba(0,0,0,0.2), 0 30px 40px 0 rgba(0,0,0,0.19);
   transition: 1s;
   border-radius: 50%;
+  padding: 30px;
 
   /*-webkit-filter:blur(3px);
   filter: blur(3px);
