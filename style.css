@@ -58,7 +58,7 @@ body{
   text-transform: uppercase;
 }
 .p-des{
-  font-style: italic;
+  /*font-style: italic;*/
   /*color: #3498db;*/
 }
 .p-sm{
@@ -112,4 +112,9 @@ body{
   margin-left: 50px;
   margin-bottom: 20px;
 }
-
+hr
+{
+  max-width: 10.0rem;
+  border-width: .2rem;
+ 
+}
