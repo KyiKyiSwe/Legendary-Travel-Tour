@@ -136,7 +136,7 @@ a.logo_style{
 }
 
 .carousel_title a:hover{
-    /*color: #fff;*/
+    color: #444;
     text-decoration: none;
 }
 
@@ -171,7 +171,7 @@ div.tour_box{
 }
 
 .tour_text{
-    margin: 20px 20px 36px 20px;
+    margin: 20px 20px 25px 20px;
 
 }
 
@@ -249,6 +249,15 @@ footer{
     padding: 20px 0;
     background: #464646;
     color: white;
+}
+
+.tour_box a{
+color: #444!important;
+}
+
+.tour_box a:hover{
+   text-decoration: none;
+   color: #37acfd!important;
 }
 
 /*.carousel-control-prev-icon{
@@ -437,6 +446,10 @@ img.img_er:hover
     font-family: raleway;
     color: #444;
     font-size: 24px;
+}
+
+.shadow_image a:hover{
+text-decoration: none;
 }
 
 h2.card-title:hover{
