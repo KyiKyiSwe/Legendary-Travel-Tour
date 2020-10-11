@@ -1,52 +1,51 @@
-
 @font-face{
-	font-family: peddana;
-	src:url("fonts/peddana.ttf");
+    font-family: peddana;
+    src:url("fonts/peddana.ttf");
 }
 @font-face{
-	font-family: Lobster;
-	src:url("fonts/Lobster.ttf");
+    font-family: Lobster;
+    src:url("fonts/Lobster.ttf");
 }
 .imgedit{
-	width: 80%;
-	height: 400px;
+    width: 80%;
+    height: 400px;
 }
 .imgeditteam{
-	width: 600px;
-	height: 400px;
+    width: 600px;
+    height: 400px;
 }
 div i{
-	/*font-family: Lobster;*/
-	font-style: italic;
-	text-align: center;
-	color:#1193f0;
-	font-size: 30px;
+    /*font-family: Lobster;*/
+    font-style: italic;
+    text-align: center;
+    color:#1193f0;
+    font-size: 30px;
 }
 .product_style{
-	/*font-family: peddana;*/
-	color:#1193f0;
-	font-size: 35px;
+    /*font-family: peddana;*/
+    color:#1193f0;
+    font-size: 35px;
 }
 .btnsubmit{
-	width: 50%;
-	height: 50px;
-	margin-top: 20px;
-	margin-left: 80px;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
 }
 .imgabout{
-	width: 100%;
-	height: 500px;
+    width: 100%;
+    height: 500px;
 }
 .aboutus{
-	font-family: peddana;
-	color: #1193f0;
-	font-size: 30px;
-	line-height: 35px;
+    font-family: peddana;
+    color: #1193f0;
+    font-size: 30px;
+    line-height: 35px;
 }
 .inquiry{
-	font-family: peddana;
-	font-size: 30px;
-	text-align: justify;
+    font-family: peddana;
+    font-size: 30px;
+    text-align: justify;
 }
 
 /*end kks */
@@ -58,131 +57,141 @@ div i{
 
 
 @font-face{
-	font-family: Raleway;
-	src:url(fonts/Raleway-VariableFont_wght.ttf);
+    font-family: Raleway;
+    src:url(fonts/Raleway-VariableFont_wght.ttf);
 }
 
 @font-face{
-	font-family: Raleway-SemiBold;
-	src:url(fonts/static/Raleway-SemiBold.ttf);
+    font-family: Raleway-SemiBold;
+    src:url(fonts/static/Raleway-SemiBold.ttf);
 }
 
 
 @font-face{
-	font-family: Pacifico-Regular;
-	src:url(fonts/Pacifico-Regular.ttf);
+    font-family: Pacifico-Regular;
+    src:url(fonts/Pacifico-Regular.ttf);
 }
 
 
 h1,h2,h3,h4,h5{
-	font-family: Raleway-SemiBold;
+    font-family: Raleway-SemiBold;
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #fff;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{ color: #fff;  }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
 .dropdown-menu{
-	border: none!important;
-	border-top: 3px solid #37acfd!important;
-	padding: 0!important;
+    border: none!important;
+    border-top: 3px solid #37acfd!important;
+    padding: 0!important;
 }
 
 .dropdown-menu a{
-	font-family: Raleway-SemiBold!important;
-	padding: 5px 20px;
-	font-size: 14px!important;
+    font-family: Raleway-SemiBold!important;
+    padding: 5px 20px;
+    font-size: 14px!important;
 }
 
 .dropdown-menu a:hover{
-	background: #37acfd!important;
-	padding-left: 14px;
-	transition: 0.5s;
-	color: #eee!important;
+    background: #37acfd!important;
+    padding-left: 14px;
+    transition: 0.5s;
+    color: #eee!important;
 }
 
 a.logo_style{
-	font-family: Pacifico-Regular;
-	font-size: 28px;
-	color: #444;
-	margin-left: 10px;
+    font-family: Pacifico-Regular;
+    font-size: 28px;
+    color: #444;
+    margin-left: 10px;
 }
 
 .nav-item a{
-	font-family: Raleway-SemiBold;
-	color: #666!important;
+    font-family: Raleway-SemiBold;
+    color: #666!important;
 }
 
 .logo_image{
-	width: 140px;
+    width: 140px;
 }
 
 .carousel_title{
-	color: #fff;
-	background: #0000005c;
+    color: #fff;
+    background: #0000005c;
     padding: 20px;
     border-radius: 5px;
     position: absolute;
-	top: 180px;
-	left: 12%;
+    top: 180px;
+    left: 12%;
+    width: 35%;
 }
 
 .carousel_title a{
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .carousel_title a:hover{
-	/*color: #fff;*/
-	text-decoration: none;
+    /*color: #fff;*/
+    text-decoration: none;
 }
 
 
 div#tour_program{
-	padding: 20px 0 60px;
+    padding: 20px 0 60px;
 }
 
 div#tour_program .line,
 div#destination .line{
-	max-width: 6.0rem;
-	border-width: .2rem;
-	border-color: #37acfd;
-	margin-bottom: 30px;
+    max-width: 6.0rem;
+    border-width: .2rem;
+    border-color: #37acfd;
+    margin-bottom: 30px;
+}
+
+div.des_column p a{
+ color: #fff;
+}
+
+div.des_column p a:hover{
+ color: #37acfd;
+ text-decoration: none;
 }
 
 div.tour_box{
-	padding: 15px;
-	border: 1px solid #f3f3f3;
-	border-radius: 5px;
-	box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.24);
-	margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.24);
+    margin: 15px 0;
 }
 
 .tour_text{
-	margin: 20px 20px 36px 20px;
+    margin: 20px 20px 36px 20px;
 
 }
 
 .tour_text h4{
-	font-size: 18px;
+    font-size: 18px;
 }
 
 div#counter{
-	background: url("./images/homepage/home_bg.jpg")bottom center fixed;
-	margin: 0 0 60px 0;
+    background: url("./images/homepage/home_bg.jpg")bottom center fixed;
+    margin: 0 0 60px 0;
 }
 
 div.counter_column{
-	text-align: center;
-	color: #fff;
-	padding: 60px 0 40px;
+    text-align: center;
+    color: #fff;
+    padding: 60px 0 40px;
 }
 
 .counter_img{
-	padding: 8px;
+    padding: 8px;
     background: #f8f9fa;
     border-radius: 50px;
     width: 85px;
@@ -200,45 +209,55 @@ div.counter_column{
     padding: 5px 10px;
 }
 
+.clear{
+    clear: both;
+}
+
+.content img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
 footer{
-	background: #f8f9fa;
-	margin-top: 60px;
+    background: #f8f9fa;
+    margin-top: 60px;
 }
 
 .footer_column{
-	padding: 60px 0;
+    padding: 60px 0;
 }
 
 .footer_column h4{
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .footer_column img{
-	width: 230px;
-	object-fit: cover;
-	height: 250px;
+    width: 230px;
+    object-fit: cover;
+    height: 250px;
 }
 
 .footer_column i{
-	float: left;
+    float: left;
     margin-right: 10px;
     line-height: 25px;
     color: #299bea;
 }
 
 #footer_copyright{
-	padding: 20px 0;
+    padding: 20px 0;
     background: #464646;
     color: white;
 }
 
 /*.carousel-control-prev-icon{
-	background-image: url("images/homepage/left-arrow.png")!important;
+    background-image: url("images/homepage/left-arrow.png")!important;
 }*/
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
-	width: 32px!important;
-	height: 32px!important;
+    width: 32px!important;
+    height: 32px!important;
 }
 
 /*Start Tour Plugin*/
@@ -353,6 +372,79 @@ footer{
 /*End Cmmt*/
 
 /*Start Outbound*/
+<<<<<<< HEAD
+hr
+{
+    max-width: 10.0rem;
+    border-width: .2rem;
+    border-color:skyblue;
+}
+.card
+{
+    border: none;
+}   
+a
+{
+    text-decoration: none;
+}
+img.img_er
+{
+    -webkit-filter:grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform:scale(1);
+    transform: scale(1);
+}
+img.img_er:hover
+{
+    -webkit-filter:grayscale(75%);
+    filter: grayscale(75%);
+    -webkit-transform:scale(1.1);
+    transform: scale(0.9);
+}
+
+
+.shadow_image img
+{
+    -webkit-filter:grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform:scale(1);
+    transform: scale(1);
+    height: 300px;
+}
+.shadow_image img:hover
+{
+    -webkit-filter:grayscale(75%);
+    filter: grayscale(75%);
+    -webkit-transform:scale(1.1);
+    transform: scale(0.9);
+}
+
+.shadow_image
+{
+    border-radius: 10px;
+}
+.shadow_image
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 25px 0 rgba(0,0,0,0.19);
+    transition: 1s;
+}
+
+.shadow_image .card-title{
+    font-family: raleway;
+    color: #444;
+    font-size: 24px;
+}
+
+h2.card-title:hover{
+    color: #37acfd!important;
+}
+
+.shadow_image .card-body a:hover{
+=======
         hr
         {
             max-width: 10.0rem;
@@ -397,4 +489,14 @@ footer{
 
 
 /*End Outbound*/
+>>>>>>> ce5e16d6ffa72f2170874d2eddfbe14eb74545a5
     
+    text-decoration: none!important;
+    
+}
+
+.inner-section{
+    padding: 40px 0 20px;
+}
+
+/*End Outbound*/
