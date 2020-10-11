@@ -372,6 +372,7 @@ footer{
 /*End Cmmt*/
 
 /*Start Outbound*/
+<<<<<<< HEAD
 hr
 {
     max-width: 10.0rem;
@@ -443,6 +444,52 @@ h2.card-title:hover{
 }
 
 .shadow_image .card-body a:hover{
+=======
+        hr
+        {
+            max-width: 10.0rem;
+            border-width: .2rem;
+            border-color:skyblue;
+        }
+        .card
+        {
+            border: none;
+        }   
+        a
+        {
+            text-decoration: none;
+        }
+        img.img_er
+        {
+            -webkit-filter:grayscale(0%);
+            filter: grayscale(0%);
+            -webkit-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+            -webkit-transform:scale(1);
+            transform: scale(1);
+
+        }
+        img.img_er:hover
+        {
+            -webkit-filter:grayscale(75%);
+            filter: grayscale(75%);
+            -webkit-transform:scale(1.1);
+            transform: scale(0.9);
+
+        }
+        .shadow_image
+        {
+            border-radius: 10px;
+        }
+        .shadow_image
+        {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 25px 0 rgba(0,0,0,0.19);
+            transition: 1s;
+        }
+
+
+/*End Outbound*/
+>>>>>>> ce5e16d6ffa72f2170874d2eddfbe14eb74545a5
     
     text-decoration: none!important;
     
