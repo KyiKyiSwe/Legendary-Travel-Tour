@@ -452,6 +452,22 @@ img.img_er:hover
 text-decoration: none;
 }
 
+.inbound_box{
+    text-align: center;
+}
+
+.inbound_box .card-title{
+    font-family: Raleway-SemiBold!important;
+    font-size: 18px;
+}
+
+.inbound_box .card{
+    font-family: raleway!important;
+    font-size: 20px;
+    border: 1px solid #eee;
+}
+
+
 h2.card-title:hover{
     color: #37acfd!important;
 }
