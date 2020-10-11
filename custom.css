@@ -352,7 +352,7 @@ footer{
 /*End Cmmt*/
 
 /*Start Outbound*/
-hr
+        hr
         {
             max-width: 10.0rem;
             border-width: .2rem;
@@ -370,7 +370,7 @@ hr
         {
             margin-left:  295px;
         }
-        img
+        img.img_er
         {
             -webkit-filter:grayscale(75%);
             filter: grayscale(75%);
@@ -380,7 +380,7 @@ hr
             transform: scale(1);
 
         }
-        img:hover
+        img.img_er:hover
         {
             -webkit-filter:grayscale(0);
             filter: grayscale(0);
@@ -397,4 +397,7 @@ hr
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 25px 0 rgba(0,0,0,0.19);
             transition: 1s;
         }
+
+
+/*End Outbound*/
     
